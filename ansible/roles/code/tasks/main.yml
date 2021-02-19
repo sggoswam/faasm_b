@@ -2,7 +2,7 @@
 
 - name: "Check out code"
   git:
-    repo: "{{ remote_url | default('https://github.com/faasm/faasm.git') }}"
+    repo: "{{ remote_url | default('https://github.com/sggoswam/faasm_b.git') }}"
     dest: "{{ ansible_env.HOME }}/faasm-bm"
     version: "{{ repo_version | default('master') }}"
     update: yes
