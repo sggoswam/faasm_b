@@ -7,7 +7,7 @@ from faasmcli.util.env import PROJ_ROOT
 from faasmcli.util.config import get_faasm_config
 from faasmcli.util.version import get_faasm_version
 
-REPO_NAME = "faasm/faasm"
+REPO_NAME = "sggoswam/faasm_b"
 
 VERSIONED_FILES = [
     ".env",

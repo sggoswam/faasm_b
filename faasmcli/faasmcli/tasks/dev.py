@@ -34,6 +34,7 @@ def cmake(ctx, clean=False, build="Debug"):
         "-DCMAKE_BUILD_TYPE={}".format(build),
         "-DCMAKE_CXX_COMPILER=/usr/bin/clang++-10",
         "-DCMAKE_C_COMPILER=/usr/bin/clang-10",
+        "-DCMAKE_PREFIX_PATH=/usr/lib/x86_64-linux-gnu/cmake",
         PROJ_ROOT,
     ]
 

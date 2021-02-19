@@ -34,7 +34,7 @@ WORKDIR /usr/local/code
 RUN rm -rf faasm
 RUN git clone \
     -b v${FAASM_VERSION} \
-    https://github.com/faasm/faasm
+    https://github.com/sggoswam/faasm_b
 WORKDIR /usr/local/code/faasm
 
 # Set up runtime filesystem
