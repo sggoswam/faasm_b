@@ -33,7 +33,7 @@ RUN apt install -y nasm
 WORKDIR /usr/local/code
 RUN rm -rf faasm
 RUN git clone \
-    -b v${FAASM_VERSION} \
+    -b main \
     https://github.com/sggoswam/faasm_b
 WORKDIR /usr/local/code/faasm
 
