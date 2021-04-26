@@ -5,7 +5,7 @@ project(faasm)
 option(FAASM_STATIC_LIBS "Statically link Faasm libs" ON)
 
 # Performance functionality
-option(FAASM_SELF_TRACING "Turn on system tracing using the logger" OFF)
+option(FAASM_SELF_TRACING "Turn on system tracing using the logger" ON)
 option(FAASM_OPENMP_TRACING "Trace OpenMP forks in Redis" OFF)
 option(FAASM_PERF_PROFILING "Turn on profiling features as described in debugging.md" OFF)
 
